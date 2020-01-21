@@ -1,21 +1,21 @@
 body {
-    background-color: lightgoldenrodyellow;
-    font-family: 'Merriweather', serif;;
+    margin: 0px;
+    padding: 0px;
 }
 
-.error-wrapper {
+.container {
+    margin: 0;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
+    border: 10px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+.container > .img-wrapper {
+    display: flex;
     flex-direction: column;
 }
 
-.error-heading {
-    margin-bottom: 42px;
-}
 
- img {
-    width: 50%;
-
-}
